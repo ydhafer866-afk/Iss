@@ -1,0 +1,83 @@
+.dashboard-container {
+    padding: 24px;
+}
+
+.stat-card {
+    border-radius: 16px !important;
+    transition: all 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2) !important;
+}
+
+.workout-card {
+    border-left: 4px solid #1976D2;
+    margin-bottom: 16px;
+}
+
+.exercise-item {
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    background-color: #f5f5f5;
+}
+
+.exercise-video {
+    width: 100%;
+    height: 300px;
+    border-radius: 12px;
+}
+
+.injury-warning {
+    background-color: #FFF3E0;
+    border-left: 4px solid #FB8C00;
+    padding: 16px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+}
+
+.muscle-group-chip {
+    margin: 4px;
+}
+
+.rest-time-display {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1976D2;
+}
+
+/* Progress Section */
+.progress-chart {
+    padding: 20px;
+}
+
+.weight-entry {
+    padding: 12px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.weight-entry:last-child {
+    border-bottom: none;
+}
+
+/* Motivational Quote */
+.quote-card {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 16px !important;
+    padding: 24px;
+}
+
+.quote-text {
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-bottom: 16px;
+}
+
+.quote-author {
+    font-size: 1rem;
+    text-align: right;
+    opacity: 0.9;
+}
